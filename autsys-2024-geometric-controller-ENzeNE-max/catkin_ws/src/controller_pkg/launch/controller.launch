@@ -1,0 +1,8 @@
+<!--- ToDo: write controller launch script. think about how to import the .yaml file from config -->
+<!--- if you have no ide what to do, start here: http://wiki.ros.org/roslaunch/XML -->
+<!--- also check point 2 here: http://wiki.ros.org/rosparam -->
+
+<launch>
+  <node name="todo" pkg="todo" type="todo" clear_params="true"/>
+  <!-- todo: load rosparam from file here -->
+</launch>
